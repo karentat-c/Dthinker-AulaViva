@@ -83,7 +83,7 @@ const errorMessages: Record<string, string> = {
   solo_estudiantes: "Solamente los estudiantes pueden unirse mediante un código.",
   rol_no_configurado: "No pudimos identificar tu rol. Revisa tu perfil.",
 };
-
+export const instant = false;
 export default async function DashboardPage({
   searchParams,
 }: {
